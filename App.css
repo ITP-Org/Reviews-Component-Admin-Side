@@ -1,0 +1,25 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.header {
+  width: 8%;
+}
+
+.main-content {
+  width: 90%;
+  padding: 10px;
+}
+
+.title {
+  margin-bottom: 20px;
+  color: #744ecd;
+  font-weight: bolder;
+}
+
+.admin-compartments {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}

@@ -1,0 +1,89 @@
+.admin-left-compartment {
+  width: 48%;
+  height: 70vh;
+  background-color: #744ecd73;
+  border-radius: 10px;
+  overflow: hidden; 
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative; 
+  margin-right: 2%;
+}
+
+.admin-left-compartment-inner {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 5%; 
+  box-sizing: content-box; 
+}
+
+.review-card {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 15px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.review-details {
+  margin-left: 15px;
+  flex-grow: 1;
+}
+
+.username {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  color: #744ecd;
+}
+
+.rating {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.star {
+  color: #744ecd42;
+  margin-right: 6px;
+  font-size: x-large;
+}
+
+.star.filled {
+  color: #744ecd;
+}
+
+.review-text {
+  color: #744ecdb6;
+  max-width: 88%;
+  text-align: justify;
+}
+
+.published-date {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 0.8em;
+  color: #744ecd;
+  font-weight: bold;
+}
+
+.delete-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #744ecd;
+}
+
+.delete-icon :hover{
+  color: rgba(255, 0, 0, 0.568);
+}

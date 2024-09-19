@@ -1,0 +1,163 @@
+.admin-right-compartment {
+  width: 48%;
+  height: 64vh;
+  background-color: #744ecd73;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.filter-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  color: #744ecd;
+  font-weight: bolder;
+}
+
+.search-area {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.search-field {
+  width: 70%;
+  border-radius: 10px;
+  padding: 12px;
+  border: none;
+}
+
+.date-field {
+  width: 70%;
+  border-radius: 10px;
+  padding: 12px;
+  margin-left: 1.5%;
+  border: none;
+}
+
+.filter-options label {
+  display: flex;
+  align-items: center; 
+  margin-right: 25%; 
+}
+
+.search-button {
+  background-color: #744ecd;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  margin-left: 1.5%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: #744ecd88;
+}
+
+.filtered-reviews {
+  background-color: #744ecdc4;
+  color: white;
+  border-radius: 10px;
+  height: 60%;
+  position: relative; 
+  padding-right: 3%; 
+  padding-top: 2%;
+}
+
+.filtered-reviews-content {
+  height: 95%;
+  overflow-y: auto; 
+  overflow-x: hidden;
+  padding: 2%; 
+  box-sizing: border-box; 
+  width: 100%;
+}
+
+.delete-icon {
+  cursor: pointer;
+  color: #744ecd;
+  margin-left: 10px;
+  transition: color 0.3s;
+}
+
+.delete-icon:hover {
+  color: red;
+}
+
+/* Hide default radio button appearance */
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none; /* For Safari */
+  -moz-appearance: none; /* For Firefox */
+  border: 2px solid #744ecd; 
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff; 
+  position: relative;
+  cursor: pointer;
+  outline: none; 
+  margin-right: 10px; 
+}
+
+/* Custom radio button appearance when selected */
+input[type="radio"]:checked::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #744ecd; 
+}
+
+
+input[type="radio"]:focus {
+  box-shadow: 0 0 0 3px rgba(116, 78, 205, 0.5); 
+}
+
+
+.search-field::placeholder,
+.date-field::placeholder {
+  color: #744ecd; 
+  opacity: 1; 
+}
+
+/* Style the custom date picker*/
+input[type="date"] {
+  background-color: #ffffff; 
+  color: #744ecd; 
+  border-radius: 10px; 
+}
+
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; 
+  padding-left: 50%;
+}
+
+.action-button {
+  background-color: #744ecd; 
+  color: white; 
+  border: none;
+  border-radius: 10px; 
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.action-button:hover {
+  background-color: #744ecd8c; 
+}
+
+.no-reviews-message {
+  color: white; 
+  font-size: large;
+}
